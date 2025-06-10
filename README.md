@@ -15,6 +15,22 @@ Este proyecto es una simulación en consola de un sistema de reserva de asientos
 
 ---
 
+## 🖥️ Ejemplo de la salida en consola
+```
+  1 2   3 4 
+|-----------|
+A | L X L L |
+B | L L L L |
+C | X L L X |
+D | L L L L |
+E | L L L L |
+|-----------|
+L = Libre, X = Ocupado
+Selecciona un asiento (Ej: A3):
+```
+
+---
+
 ## 🔧 Estructura del código
 
 - `asientos`: matriz `char[][]` que almacena el estado (`L` = libre, `X` = ocupado).
